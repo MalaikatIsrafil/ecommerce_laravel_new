@@ -53,26 +53,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="category">Kategori Produk</label>
-                                <input id="category" type="text" class="form-control" name="category" required=""
-                                    value="{{ $flashsale->category }}">
-                                <div class="invalid-feedback">
-                                    Kolom ini harus di isi!
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="description">Deskripsi Produk</label>
-                                <textarea class="form-control" name="description" id="description" cols="30" rows="10"
-                                    required="">{{ $flashsale->description}}</textarea>
-                                <div class="invalid-feedback">
-                                    Deskripsi harus di isi!
-                                </div>
-                            </div>
-                        </div>
+                        
                         
                         <!-- Input tanggal mulai dan akhir flash sale -->
                         <div class="col-6">
